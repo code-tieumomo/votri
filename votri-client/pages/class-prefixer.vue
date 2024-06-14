@@ -105,7 +105,7 @@ const submit = async () => {
         <Input type="text" placeholder="tw-" class="!w-full" v-model="prefix" @focus="errorToast?.dismiss()"/>
       </div>
 
-      <div class="grid w-full tems-center gap-1.5 mt-4">
+      <div class="grid w-full tems-center gap-1.5 mt-4" v-once>
         <Label>Your HTML code</Label>
         <div class="border shadow rounded-lg overflow-hidden">
           <codemirror
