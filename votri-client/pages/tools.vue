@@ -49,6 +49,20 @@ useSeoMeta({
             </CardContent>
           </Card>
         </NuxtLink>
+
+        <!--<NuxtLink to="/task-crusher">-->
+        <!--  <Card class="hover:shadow-xl transition duration-500">-->
+        <!--    <CardContent class="p-4">-->
+        <!--      <div class="font-semibold flex items-center gap-2">-->
+        <!--        <Icon name="solar:gamepad-linear" class="h-5 w-5"/>-->
+        <!--        Task Crusher-->
+        <!--      </div>-->
+        <!--      <p class="mt-4 text-gray-600">-->
+        <!--        Complete your tasks in a gamified way.-->
+        <!--      </p>-->
+        <!--    </CardContent>-->
+        <!--  </Card>-->
+        <!--</NuxtLink>-->
       </div>
     </div>
   </section>
