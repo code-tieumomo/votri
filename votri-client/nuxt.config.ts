@@ -8,7 +8,7 @@ export default defineNuxtConfig({
       apiEndpoint: process.env.API_ENDPOINT
     }
   },
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   modules: ["@nuxtjs/tailwindcss", "shadcn-nuxt", "nuxt-icon"],
   tailwindcss: {
     cssPath: "~/assets/css/app.scss"

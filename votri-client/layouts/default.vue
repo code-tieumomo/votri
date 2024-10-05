@@ -1,34 +1,10 @@
 <script setup lang="ts">
 import { Input } from "~/components/ui/input";
 import { Toaster } from "~/components/ui/toast";
-
-// Stores
-// ...
-
-// Composable
-// ...
-
-// Props
-//...
-
-// Data
-// ...
-
-// Computed
-// ...
-
-// Event
-// ...
-
-// Methods
-// ...
-
-// Hooks
-// ...
 </script>
 
 <template>
-  <main>
+  <div class="min-h-screen flex flex-col">
     <header class="border-b text-sm shadow-sm">
       <div class="container flex h-14 items-center justify-between">
         <div class="flex gap-8">
@@ -58,10 +34,19 @@ import { Toaster } from "~/components/ui/toast";
       </div>
     </header>
 
-    <slot/>
+    <main class="grow">
+      <slot/>
+    </main>
+
+    <footer class="border-t text-xs shadow-sm">
+      <div class="container py-4 text-center text-gray-600 flex items-center justify-between">
+        <p>&copy; 2024 votri. All rights reserved.</p>
+        <p>Created by <a href="https://quanph.dev" target="_blank" class="font-bold">quanph</a></p>
+      </div>
+    </footer>
 
     <Toaster/>
-  </main>
+  </div>
 </template>
 
 <style scoped>

@@ -1,32 +1,10 @@
 <script setup lang="ts">
-// Stores
-// ...
+import { Card, CardContent } from "~/components/ui/card";
 
-// Composable
 useSeoMeta({
   title: "About Us"
 });
 
-// Props
-//...
-
-// Data
-// ...
-
-// Computed
-// ...
-
-// Event
-// ...
-
-// Methods
-// ...
-
-// Hooks
-// ...
-import { Button } from "~/components/ui/button";
-import { Badge } from "~/components/ui/badge";
-import { Card, CardContent, CardHeader } from "~/components/ui/card";
 </script>
 
 <template>

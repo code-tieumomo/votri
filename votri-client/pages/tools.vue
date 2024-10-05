@@ -49,6 +49,20 @@ useSeoMeta({
             </CardContent>
           </Card>
         </NuxtLink>
+
+        <NuxtLink to="/select-result-formatter">
+          <Card class="hover:shadow-xl transition duration-500">
+            <CardContent class="p-4">
+              <div class="font-semibold flex items-center gap-2">
+                <Icon name="carbon:data-base" class="h-5 w-5"/>
+                SELECT Result Formatter
+              </div>
+              <p class="mt-4 text-gray-600">
+                Visualize the result of your SELECT query in a table.
+              </p>
+            </CardContent>
+          </Card>
+        </NuxtLink>
       </div>
     </div>
   </section>

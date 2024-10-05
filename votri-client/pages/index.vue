@@ -2,31 +2,10 @@
 import { Badge } from "~/components/ui/badge";
 import { Button } from "~/components/ui/button";
 
-// Stores
-// ...
-
 // Composable
 useSeoMeta({
   title: "Homepage"
 });
-
-// Props
-//...
-
-// Data
-// ...
-
-// Computed
-// ...
-
-// Event
-// ...
-
-// Methods
-// ...
-
-// Hooks
-// ...
 </script>
 
 <template>
